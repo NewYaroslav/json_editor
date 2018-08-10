@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="json_editor" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw_64_7_3_0_with_sfml" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/json_editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="mingw_64_7_3_0_with_sfml" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/json_editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="mingw_64_7_3_0_with_sfml" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../../src" />
+					<Add directory="../../../../_repoz_lib/json-3.1.2/json-3.1.2/include" />
+					<Add directory="../../../../_repoz_lib/imgui-1.62" />
+					<Add directory="../../../../_repoz_lib/imgui-sfml" />
+					<Add directory="../../../../_repoz_lib/SFML-2.5.0-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.0/bin" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opengl32" />
+					<Add directory="../../src" />
+					<Add directory="../../../../_repoz_lib/json-3.1.2/json-3.1.2/include" />
+					<Add directory="../../../../_repoz_lib/imgui-1.62" />
+					<Add directory="../../../../_repoz_lib/imgui-sfml" />
+					<Add directory="../../../../_repoz_lib/SFML-2.5.0-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.0/bin" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../../../_repoz_lib/imgui-1.62/imgui.cpp" />
+		<Unit filename="../../../../_repoz_lib/imgui-1.62/imgui_draw.cpp" />
+		<Unit filename="../../../../_repoz_lib/imgui-sfml/imgui-SFML.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

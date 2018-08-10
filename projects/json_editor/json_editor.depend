@@ -1,0 +1,356 @@
+# depslib dependency file v1.0
+1533733632 source:d:\_repoz\json_editor\projects\json_editor\main.cpp
+	<nlohmann/json.hpp>
+	<string>
+	"imgui.h"
+	"imgui-SFML.h"
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<fstream>
+	<iostream>
+
+1529682303 source:d:\_repoz_lib\imgui-1.62\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"stb_textedit.h"
+	<Windows.h>
+	<windows.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1529682303 d:\_repoz_lib\imgui-1.62\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1530709775 d:\_repoz_lib\imgui-1.62\imconfig.h
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+
+1529682303 d:\_repoz_lib\imgui-1.62\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"stb_textedit.h"
+
+1529682303 d:\_repoz_lib\imgui-1.62\stb_textedit.h
+	<string.h>
+
+1529682303 source:d:\_repoz_lib\imgui-1.62\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+	"stb_rect_pack.h"
+	"stb_truetype.h"
+
+1529682303 d:\_repoz_lib\imgui-1.62\stb_rect_pack.h
+	<stdlib.h>
+	<assert.h>
+
+1529682303 d:\_repoz_lib\imgui-1.62\stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1532612997 source:d:\_repoz_lib\imgui-sfml\imgui-sfml.cpp
+	"imgui-SFML.h"
+	<imgui.h>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Window.hpp>
+	<cmath>
+	<cstddef>
+	<cassert>
+	<jni.h>
+	<android/native_activity.h>
+	<SFML/System/NativeActivity.hpp>
+
+1532612997 d:\_repoz_lib\imgui-sfml\imgui-sfml.h
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Joystick.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\json.hpp
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<numeric>
+	<string>
+	<utility>
+	<nlohmann/json_fwd.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta.hpp>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/value_t.hpp>
+	<nlohmann/detail/conversions/from_json.hpp>
+	<nlohmann/detail/conversions/to_json.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/lexer.hpp>
+	<nlohmann/detail/input/parser.hpp>
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+	<nlohmann/detail/iterators/internal_iterator.hpp>
+	<nlohmann/detail/iterators/iter_impl.hpp>
+	<nlohmann/detail/iterators/iteration_proxy.hpp>
+	<nlohmann/detail/iterators/json_reverse_iterator.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+	<nlohmann/detail/input/binary_reader.hpp>
+	<nlohmann/detail/output/binary_writer.hpp>
+	<nlohmann/detail/output/serializer.hpp>
+	<nlohmann/detail/json_ref.hpp>
+	<nlohmann/detail/json_pointer.hpp>
+	<nlohmann/adl_serializer.hpp>
+	<nlohmann/detail/macro_unscope.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\json_fwd.hpp
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\macro_scope.hpp
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\meta.hpp
+	<ciso646>
+	<cstddef>
+	<limits>
+	<type_traits>
+	<utility>
+	<nlohmann/json_fwd.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\exceptions.hpp
+	<exception>
+	<stdexcept>
+	<string>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\value_t.hpp
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\conversions\from_json.hpp
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\conversions\to_json.hpp
+	<ciso646>
+	<iterator>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<nlohmann/detail/meta.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\input\input_adapters.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<cstddef>
+	<cstring>
+	<ios>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<nlohmann/detail/macro_scope.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\input\lexer.hpp
+	<clocale>
+	<cstddef>
+	<cstdlib>
+	<initializer_list>
+	<ios>
+	<iomanip>
+	<sstream>
+	<string>
+	<vector>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\input\parser.hpp
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/lexer.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\iterators\primitive_iterator.hpp
+	<cstddef>
+	<limits>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\iterators\internal_iterator.hpp
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\iterators\iter_impl.hpp
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/iterators/internal_iterator.hpp>
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\iterators\iteration_proxy.hpp
+	<cstddef>
+	<string>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\iterators\json_reverse_iterator.hpp
+	<cstddef>
+	<iterator>
+	<utility>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\output\output_adapters.hpp
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\input\binary_reader.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstring>
+	<iomanip>
+	<ios>
+	<iterator>
+	<limits>
+	<sstream>
+	<string>
+	<utility>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\output\binary_writer.hpp
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<nlohmann/detail/input/binary_reader.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\output\serializer.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<iomanip>
+	<iterator>
+	<limits>
+	<string>
+	<sstream>
+	<type_traits>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/conversions/to_chars.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\conversions\to_chars.hpp
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\json_ref.hpp
+	<initializer_list>
+	<utility>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\json_pointer.hpp
+	<cassert>
+	<numeric>
+	<string>
+	<vector>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\adl_serializer.hpp
+	<utility>
+	<nlohmann/detail/conversions/from_json.hpp>
+	<nlohmann/detail/conversions/to_json.hpp>
+
+1527418915 d:\_repoz_lib\json-3.1.2\json-3.1.2\include\nlohmann\detail\macro_unscope.hpp
+
